@@ -1,0 +1,13 @@
+dist: trusty
+env:
+  - IMAGE_TAG=7.4 CONTEXT=./7.4/
+
+jobs:
+  include:
+    - stage: build docker image
+      script:
+        - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+        - IMAGE="${DOCKER_ACCOUNT}/composer:${IMAGE_TAG}"
+        - docker build -t $IMAGE ./$IMAGE_TAG/
+        - docker images
+        - docker push $IMAGE
