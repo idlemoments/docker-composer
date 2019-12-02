@@ -1,9 +1,5 @@
-# Supported tags and respective `Dockerfile` links
- - 7.4, latest (*[7.4/Dockerfile](./7.4/Dockerfile)*)
- - 7.3, latest (*[7.3/Dockerfile](./7.3/Dockerfile)*)
- - 7.2, latest (*[7.2/Dockerfile](./7.2/Dockerfile)*)
- - 7.1, latest (*[7.1/Dockerfile](./7.1/Dockerfile)*)
- - 7.0, latest (*[7.0/Dockerfile](./7.0/Dockerfile)*)
+# Build Status
+![Build Status](https://travis-ci.com/anthonyptetlow/docker-composer.svg?branch=master)
 
 # Usage
 ```
