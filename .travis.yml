@@ -10,4 +10,4 @@ jobs:
         - IMAGE="${DOCKER_ACCOUNT}/composer:${IMAGE_TAG}"
         - docker build -t $IMAGE ./$IMAGE_TAG/
         - docker images
-        - docker push $IMAGE
+#        - docker push $IMAGE
