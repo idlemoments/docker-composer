@@ -1,5 +1,5 @@
 # Build Status
-![Build Status](https://travis-ci.com/anthonyptetlow/docker-composer.svg?branch=master)
+![Build Status](https://travis-ci.com/idlemoments/docker-composer.svg?branch=master)
 
 # Usage
 ```
